@@ -1,19 +1,15 @@
 Outros Gerenciadores de Torneios
 
-iFut Brasil
-https://www.ifut.com.br/
+[iFut Brasil](https://www.ifut.com.br/)
 
-GDC - Gerenciador de Competições
-http://www.gerenciadordecompeticoes.com.br/manualgdc/html/index.html
+[GDC- Gerenciador de Competições](http://www.gerenciadordecompeticoes.com.br/manualgdc/html/index.html)
 
-Globo Esporte
-https://globoesporte.globo.com/
-https://globoesporte.globo.com/futebol/brasileirao-serie-a/
+[Globo Esporte](https://globoesporte.globo.com/futebol/brasileirao-serie-a/)
 
 FORMATOS DE TORNEIOS
 Existem alguns formatos de torneio usados atualmente no e-sport. Abaixo dois links que explicam estes formatos.
-https://www.techtudo.com.br/listas/2019/01/escalada-e-mata-mata-conheca-os-formatos-dos-campeonatos-nos-esports.ghtml
-https://vs.com.br/artigo/guia-quais-sao-e-como-funcionam-os-diferentes-formatos-de-campeonatos
+[Tech Tudo - Formatos dos campeonatos eSports](https://www.techtudo.com.br/listas/2019/01/escalada-e-mata-mata-conheca-os-formatos-dos-campeonatos-nos-esports.ghtml)
+[VS - Formatos dos campeonatos eSports](https://vs.com.br/artigo/guia-quais-sao-e-como-funcionam-os-diferentes-formatos-de-campeonatos)
 
 Entidades/Features presentes na soma destes Sistemas
  - Perfil Organizador
