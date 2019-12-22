@@ -34,7 +34,7 @@ Outra premissa é aprender a utilizar o TDD, Desenvolvimento Orientado por Teste
 Finalmente, após criar estas estruturas, desenvolver o código na linguagem ainda não definida.
 
 # Escopo atual
-Aqui iremos atulizando as informações atuais do projeto: [Clique aqui para ver o escopo](https://github.com/Michael-Lourenco/gerenciadordetorneios/blob/master/escopo)
+Aqui iremos atulizando as informações atuais do projeto: [Clique aqui para ver o escopo](https://github.com/Michael-Lourenco/gerenciadordetorneios/blob/master/escopo.md)
 
 # Licença
 Este projeto está licenciado sobre a MIT Licence - veja o arquivo [LICENSE.md](https://github.com/Michael-Lourenco/gerenciadordetorneios/blob/master/LICENSE) file for details
