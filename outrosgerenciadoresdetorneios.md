@@ -1,10 +1,14 @@
-Outros Gerenciadores de Torneios
+#Outros Gerenciadores de Torneios
+Existem diversos gerenciadores de torneios.
 
+## Na Web
 [iFut Brasil](https://www.ifut.com.br/)
 
 [GDC- Gerenciador de Competições](http://www.gerenciadordecompeticoes.com.br/manualgdc/html/index.html)
 
 [Globo Esporte](https://globoesporte.globo.com/futebol/brasileirao-serie-a/)
+
+## Apps
 
 FORMATOS DE TORNEIOS
 Existem alguns formatos de torneio usados atualmente no e-sport. Abaixo dois links que explicam estes formatos.
