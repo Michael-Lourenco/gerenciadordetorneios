@@ -9,6 +9,10 @@ Existem diversos gerenciadores de torneios.
 [Globo Esporte](https://globoesporte.globo.com/futebol/brasileirao-serie-a/)
 
 ## Apps
+Também existem diversos gerenciadores disponibilizados na Googple PlayStore e Apple Store:
+
+<img src="https://github.com/Michael-Lourenco/gerenciadordetorneios/blob/master/imgs/outros-gerenciadores-torneio-800.jpg"/>
+**Fonte: Google Play Store**
 
 FORMATOS DE TORNEIOS
 Existem alguns formatos de torneio usados atualmente no e-sport. Abaixo dois links que explicam estes formatos.
