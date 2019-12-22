@@ -3,6 +3,7 @@
 Baseado no estudo realizado em [Outros Gerenciadores de Torneios](https://github.com/Michael-Lourenco/gerenciadordetorneios/blob/master/outrosgerenciadoresdetorneios).
 
 # MVP (Minimum Viable Product / Produto Minimamente Viável)
+
 O escopo inicial deste projeto é:
 Um Gerenciador de Torneios onde, 
   dado um número qualquer de participantes, 
