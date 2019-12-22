@@ -1,6 +1,6 @@
 # Escopo do Projeto
 
-Baseado no estudo realizado em [Outros Gerenciadores de Torneios](https://github.com/Michael-Lourenco/gerenciadordetorneios/blob/master/outrosgerenciadoresdetorneios).
+Baseado no estudo realizado em [Outros Gerenciadores de Torneios](https://github.com/Michael-Lourenco/gerenciadordetorneios/blob/master/outrosgerenciadoresdetorneios.md).
 
 # MVP (Minimum Viable Product / Produto Minimamente Viável)
 
