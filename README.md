@@ -1,7 +1,7 @@
-# Gerenciador De Torneios
+# Gerenciador de Competições
 # Sobre este Projeto
 A ideia sobre este App é:
-"Monte e gerencie seu torneio de forma simples e rápida"
+"Monte e gerencie sua competição de forma prática e rápida"
 
 # Por quê?
 
