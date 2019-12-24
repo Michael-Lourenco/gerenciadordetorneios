@@ -5,27 +5,17 @@ Baseado no estudo realizado em [Outros Gerenciadores de Torneios](https://github
 # MVP (Minimum Viable Product / Produto Minimamente Viável)
 
 O escopo inicial deste projeto é:
-Um Gerenciador de Torneios onde, 
-  dado um número qualquer de PARTICIPANTES, 
-  é retornado um TORNEIO com CONFRONTOS do tipo ELIMINATÓRIO, 
-  onde podem ser inseridos MANUALMENTE os RESULTADOS de cada CONFRONTO, gerando um VENCEDOR ao final de todos os confrontos. 
+Um App Gerenciador de Torneios onde, dado um número qualquer de COMPETIDORES, é retornado uma COMPETIÇÃO com PARTIDAS do tipo ELIMINATÓRIO de PARTIDA ÚNICA.
+Neste método de disputa, os COMPETIDORES se enfrentam em partidas melhor de uma (MD1). O vencedor continua na competição e o perdedor está automaticamente desclassificado.
+Neste Aapp podem ser inseridos MANUALMENTE os RESULTADOS de cada PARTIDA, gerando um VENCEDOR ao final de cada partida.
+Este vencedor enfrenta o VENCEDOR de outra partida, enquanto o PERDEDOR é automaticamente desclassificado da competição.
   
-  
-  ENTIDADES DO TORNEIO FORMATO ELIMINATÓRIAS
+## Entidades da Competição formato Eliminatórias de Partida Única
   Fitrando do estudo anterior temos:
- - Torneios
- - Atletas/Jogadores
- - Confrontos/Jogos
- - Equipes
- - Resultados
-  - vencedor
-  - perdedor
- - Regra de Desempate
- - Modalidades
- - Sorteio/Grupamentos
-  - Realizar Sorteio da Eliminatória Simples
-  - Grupos Sorteados
- - Programação dos Confrontos
+ - COMPETIÇÕES
+ - COMPETIDORES
+ - PARTIDAS
+
  
 
   
