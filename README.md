@@ -21,7 +21,7 @@ Atualmente desenvovlo jogos para Unity 3D e utilizo a linguagem C# para isso.
 
 Estou estudando javascript também de maneira mais profunda, aprendendo node.js etc.
 
-Para este estudo decidi criar um Gerenciador de Torneios dos mais variados tipos. 
+Para este estudo decidi criar uma API REST Gerenciador de Competições dos mais variados tipos. 
 
 Detalhe, não estudei a estrutura do ainda, mas VOU/VAMOS finalizá-lo.
 
