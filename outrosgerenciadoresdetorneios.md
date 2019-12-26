@@ -2,6 +2,7 @@
 Existem diversos gerenciadores de torneios.
 
 ## Na Web
+[Challonge](https://challonge.com/pt/dashboard.html)
 [iFut Brasil](https://www.ifut.com.br/)
 
 [GDC- Gerenciador de Competições](http://www.gerenciadordecompeticoes.com.br/manualgdc/html/index.html)
