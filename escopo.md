@@ -15,24 +15,31 @@ Este vencedor enfrenta o VENCEDOR de outra partida, enquanto o PERDEDOR é autom
  - COMPETIÇÕES
  - COMPETIDORES
  - PARTIDAS
+ - FASES/TURNOS
+ - RODADAS
  
  ### COMPETIÇÕES
   -TIPO DE COMPETIÇÃO
   -SISTEMA DE DISPUTA
-  -TABELA DE CONFRONTOS
+  -TABELA DE PARTIDAS
 
   
   ### SISTEMA DE DISPUTA
    - ELIMINATÓRIA SIMPLES
-     - OBS: Para formar disputas do tipo Eliminatória Simples e semelhantes, pode acontecer de existir a caracteristica de haver isentos na tabela se o nº de participantes for diferente de números que fazem parte da potência de 2. 
-     - ISENTOS = Potência de 2 Superior - Nº de Participantes.
-     - Nesse caso uma regra para encaixar esta sobra deve ser gerada. Um exemplo da regra acima aplicada:
-      - Digamos que tenhamos 14 participantes.
-      - A potencia de 2 superior relativa ao nº de participantes (no caso 14 participantes) é 16.
+    -Rodadas
+     - O Número de Rodadas (NR) = Expoente da potência de 2 que corresponde ao número de competidores (NC)
+      - EXEMPLO: NC = 8 -> NC = 2^3 -> NR = 3 (neste caso o numero de rodadas é igual a 3)
+     - OBS: Para formar disputas do tipo Eliminatória Simples e semelhantes, pode acontecer de existir a caracteristica de haver isentos na tabela se o nº de competidores for diferente de números que fazem parte da potência de 2. 
+     - ISENTOS = Potência de 2 Superior - Nº de Competidores.
+      - Nesse caso uma regra para encaixar esta sobra deve ser gerada. Um exemplo da regra acima aplicada:
+      - Digamos que tenhamos 14 competidores.
+      - A potencia de 2 superior relativa ao nº de competidores(no caso 14) é 16.
       - ISENTOS = 16-14 = 2
       - Então criamos 2 isentos (no inicio) OU (no final) OU (no inicio e no final) da tabela de confrontos. 
-      - Neste caso, 2 participantes passarão automaticamente para a próxima fase, disputando com os vencedores dos confrontos das chaves subsequentes.
-      - Assim, a tabela ficará correta.
+      - Neste caso, 2 competidores passarão automaticamente para a próxima fase, disputando com os vencedores dos confrontos das chaves subsequentes.
+      - Assim, a tabela ficará correta.  
+    - Cálculo do número de Partidas = Nº de partidas = nº de competidores - 1.
+      
    - RODIZIO
    - DUPLA ELIMINAÇÃO
    - ETC
