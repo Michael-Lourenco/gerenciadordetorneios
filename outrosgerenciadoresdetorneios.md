@@ -2,12 +2,16 @@
 Existem diversos gerenciadores de torneios.
 
 ## Na Web
+
 [Challonge](https://challonge.com/pt/dashboard.html)
 [iFut Brasil](https://www.ifut.com.br/)
 
 [GDC- Gerenciador de Competições](http://www.gerenciadordecompeticoes.com.br/manualgdc/html/index.html)
 
 [Globo Esporte](https://globoesporte.globo.com/futebol/brasileirao-serie-a/)
+
+### UMA EXPLICAÇÃO SOBRE TORNEIOS (que será nosso escopo inicial)
+[Organização de Competições Esportivas: Torneios e Campeonatos](https://www.youtube.com/watch?v=qnE4wbN3id4)
 
 ## Apps
 Também existem diversos gerenciadores disponibilizados na Googple PlayStore e Apple Store:
