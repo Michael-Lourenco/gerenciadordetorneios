@@ -15,6 +15,26 @@ Este vencedor enfrenta o VENCEDOR de outra partida, enquanto o PERDEDOR é autom
  - COMPETIÇÕES
  - COMPETIDORES
  - PARTIDAS
+ 
+ ### COMPETIÇÕES
+  -TIPO DE COMPETIÇÃO
+  -SISTEMA DE DISPUTA
+  -TABELA DE CONFRONTOS
+
+  
+  ### SISTEMA DE DISPUTA
+   - ELIMINATÓRIA SIMPLES
+     - OBS: Para formar disputas do tipo Eliminatória Simples e semelhantes, pode acontecer de existir a caracteristica de haver isentos na tabela se o nº de participantes for diferente de números que fazem parte da potência de 2. 
+     - ISENTOS = Potência de 2 Superior - Nº de Participantes.
+     - Nesse caso uma regra para encaixar esta sobra deve ser gerada. Um exemplo da regra acima aplicada:
+      - Digamos que tenhamos 6 participantes.
+      - A potencia de 2 superior relativa ao nº de participantes no caso, é 8.
+      - Então criamos 2 participantes fantasmas e encaixamos nos confrontos. 
+      - Neste caso, 2 participantes passarão automaticamente para a próxima fase, visto que enfrentarão estes fantasmas.
+      - Assim, a tabela ficará correta.
+   - RODIZIO
+   - DUPLA ELIMINAÇÃO
+   - ETC
 
  
 
