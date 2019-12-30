@@ -27,15 +27,20 @@ Este vencedor enfrenta o VENCEDOR de outra partida, enquanto o PERDEDOR é autom
      - OBS: Para formar disputas do tipo Eliminatória Simples e semelhantes, pode acontecer de existir a caracteristica de haver isentos na tabela se o nº de participantes for diferente de números que fazem parte da potência de 2. 
      - ISENTOS = Potência de 2 Superior - Nº de Participantes.
      - Nesse caso uma regra para encaixar esta sobra deve ser gerada. Um exemplo da regra acima aplicada:
-      - Digamos que tenhamos 6 participantes.
-      - A potencia de 2 superior relativa ao nº de participantes no caso, é 8.
-      - Então criamos 2 participantes fantasmas e encaixamos nos confrontos. 
-      - Neste caso, 2 participantes passarão automaticamente para a próxima fase, visto que enfrentarão estes fantasmas.
+      - Digamos que tenhamos 14 participantes.
+      - A potencia de 2 superior relativa ao nº de participantes (no caso 14 participantes) é 16.
+      - ISENTOS = 16-14 = 2
+      - Então criamos 2 isentos (no inicio) OU (no final) OU (no inicio e no final) da tabela de confrontos. 
+      - Neste caso, 2 participantes passarão automaticamente para a próxima fase, disputando com os vencedores dos confrontos das chaves subsequentes.
       - Assim, a tabela ficará correta.
    - RODIZIO
    - DUPLA ELIMINAÇÃO
    - ETC
-
+### TABELA DE CONFRONTOS
+  - A tabela pode ser gerada de diversas formas, sendo as mais conhecidas:
+    - Ordem de inscrição
+    - Sorteio
+    - Critério Técnico
  
 
   
