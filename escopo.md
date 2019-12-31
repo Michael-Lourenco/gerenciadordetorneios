@@ -48,6 +48,120 @@ Este vencedor enfrenta o VENCEDOR de outra partida, enquanto o PERDEDOR é autom
     - Ordem de inscrição
     - Sorteio
     - Critério Técnico
- 
 
-  
+# Resultados esperados dos EndPoints
+## Eliminação Simples
+```json  
+singleElimination = {
+    "matchups":[
+      "match":["Equipe 1", "Equipe 2"], 
+      "match":["Equipe 3", "Equipe 4"]  
+  ]
+ ,
+  "results": [
+   "rounds":[                     // List of rounds in bracket
+      "round":[                   // First round in this bracket
+        "match-result":[1, 2],           // Equipe 1 vs Equipe 2
+        "match-result":[3, 4]            // Equipe 3 vs Equipe 4
+      ],
+      "round":[                  
+       "match-result" :[5, 6],           // Match for first place
+       "match-result" :[7, 8]            // Match for 3rd place
+      ]
+    ]
+  ]
+}
+``` 
+## Competição
+```json
+[
+  {
+    "competition": {
+      "id": 202,
+      "competition_type": "single elimination"
+      "description": "",
+      "game_id": 5,
+      "game_name": "Conti GO",     
+      "name": "Torneio das Estrelas",
+      "participants_count": 4,
+      "ranked_by": "match wins",
+      "show_rounds": true,
+      "tie_breaks": [
+        "match wins vs tied",
+        "game wins",
+        "points scored"
+      ]
+    }
+  },{
+    "competition": {
+      "id": 534,
+      "competition_type": "single elimination"
+      "description": "",
+      "game_id": 5,
+      "game_name": "Conti GO",     
+      "name": "Torneio das Estrelas",
+      "participants_count": 4,
+      "ranked_by": "match wins",
+      "show_rounds": true,
+      "tie_breaks": [
+        "match wins vs tied",
+        "game wins",
+        "points scored"
+      ]
+    }
+  }
+ 
+ 
+]
+```
+
+## Competidor
+```json
+[
+  {
+    "competitor": {
+      "id": 13251545,
+      "name": "Equipe 1"
+    }
+  },
+   {
+    "competitor": {
+      "id": 50215412,
+      "name": "Equipe 2"
+    }
+  },
+    {
+    "competitor": {
+      "id": 25455242,
+      "name": "Equipe 3"
+    }
+  },
+   {
+    "competitor": {
+      "id": 12478563,
+      "name": "Equipe 4"
+    }
+  }
+]
+```
+
+## Partida
+```json
+[
+  {
+    "match":{
+      "id": 23457812,
+      "location": null,
+      "competitors":[
+        {"competitor_id":12478563,"score":1,"winner":false},
+        {"competitor_id":50215412,"score":4,"winner":true}
+      ],
+      "round": 1,
+      "state": "closed",
+      "competition_id": 202,
+    }
+  }
+
+]
+
+```
