@@ -59,14 +59,14 @@ singleElimination = {
   ]
  ,
   "results": [
-   "rounds":[                     // List of rounds in bracket
-      "round":[                   // First round in this bracket
-        "match-result":[1, 2],           // Equipe 1 vs Equipe 2
-        "match-result":[3, 4]            // Equipe 3 vs Equipe 4
+   "rounds":[
+      "round":[
+        "match-result":[1, 2],
+        "match-result":[3, 4]
       ],
       "round":[                  
-       "match-result" :[5, 6],           // Match for first place
-       "match-result" :[7, 8]            // Match for 3rd place
+       "match-result" :[5, 6],
+       "match-result" :[7, 8]
       ]
     ]
   ]
@@ -78,7 +78,7 @@ singleElimination = {
   {
     "competition": {
       "id": 202,
-      "competition_type": "single elimination"
+      "competition_type": "single elimination",
       "description": "",
       "game_id": 5,
       "game_name": "Conti GO",     
@@ -95,7 +95,7 @@ singleElimination = {
   },{
     "competition": {
       "id": 534,
-      "competition_type": "single elimination"
+      "competition_type": "single elimination",
       "description": "",
       "game_id": 5,
       "game_name": "Conti GO",     
