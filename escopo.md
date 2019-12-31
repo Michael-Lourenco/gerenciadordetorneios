@@ -27,7 +27,11 @@ Este vencedor enfrenta o VENCEDOR de outra partida, enquanto o PERDEDOR é autom
   ### SISTEMA DE DISPUTA
    - ELIMINATÓRIA SIMPLES
     -Rodadas
-     - O Número de Rodadas (NR) = Expoente da potência de 2 que corresponde ao número de competidores (NC)
+     - O Número de Rodadas = Expoente da potência de 2 que corresponde ao número de competidores (NC)
+      em Javacript 
+      ```
+      numeroDeRodadas = 2^expoente = numeroDeCompetidores. Assim numeroDeRodadas = Math.log2(numeroDeCompetidores)
+      ````
       - EXEMPLO: NC = 8 -> NC = 2^3 -> NR = 3 (neste caso o numero de rodadas é igual a 3)
      - OBS: Para formar disputas do tipo Eliminatória Simples e semelhantes, pode acontecer de existir a caracteristica de haver isentos na tabela se o nº de competidores for diferente de números que fazem parte da potência de 2. 
      - ISENTOS = Potência de 2 Superior - Nº de Competidores.
@@ -43,35 +47,21 @@ Este vencedor enfrenta o VENCEDOR de outra partida, enquanto o PERDEDOR é autom
    - RODIZIO
    - DUPLA ELIMINAÇÃO
    - ETC
+
 ### TABELA DE CONFRONTOS
   - A tabela pode ser gerada de diversas formas, sendo as mais conhecidas:
     - Ordem de inscrição
     - Sorteio
     - Critério Técnico
+  - A tabela precisa apenas do número de competidores para ser gerada.
+    - Como resultado ela terá:
+      - Competidores
+      - Rodadas
+      - Partidas
+      - Resultados
+      - Campeão
 
-# Resultados esperados dos EndPoints
-## Eliminação Simples
-```json  
-singleElimination = {
-    "matchups":[
-      "match":["Equipe 1", "Equipe 2"], 
-      "match":["Equipe 3", "Equipe 4"]  
-  ]
- ,
-  "results": [
-   "rounds":[
-      "round":[
-        "match-result":[1, 2],
-        "match-result":[3, 4]
-      ],
-      "round":[                  
-       "match-result" :[5, 6],
-       "match-result" :[7, 8]
-      ]
-    ]
-  ]
-}
-``` 
+# Resultados esperados dos EndPoints de Eliminação Simples
 ## Competição
 ```json
 [
@@ -81,7 +71,7 @@ singleElimination = {
       "competition_type": "single elimination",
       "description": "",
       "game_id": 5,
-      "game_name": "Conti GO",     
+      "game_name": "Conti GO",
       "name": "Torneio das Estrelas",
       "participants_count": 4,
       "ranked_by": "match wins",
@@ -92,13 +82,14 @@ singleElimination = {
         "points scored"
       ]
     }
-  },{
+  },
+  {
     "competition": {
       "id": 534,
       "competition_type": "single elimination",
       "description": "",
       "game_id": 5,
-      "game_name": "Conti GO",     
+      "game_name": "Conti GO",
       "name": "Torneio das Estrelas",
       "participants_count": 4,
       "ranked_by": "match wins",
@@ -110,11 +101,57 @@ singleElimination = {
       ]
     }
   }
- 
- 
 ]
 ```
+## Tabela de Confrontos
+```json
+[
+  {
+    "matchups":[
+      "match":["Equipe 1", "Equipe 2"],
+      "match":["Equipe 3", "Equipe 4"]
+  ]
+  }
+]
+```
+## Resultados
+```json 
+[
+  {
+  "results": [
+    "rounds":[
+        "round":[
+          "match-result":[1, 2],
+          "match-result":[3, 4]
+        ],
+        "round":[                  
+        "match-result" :[5, 6],
+        "match-result" :[7, 8]
+        ]
+      ]
+    ]
+  }
+]
+```
+## Partida
+```json
+[
+  {
+    "match":{
+      "id": 23457812,
+      "location": null,
+      "competitors":[
+        {"competitor_id":12478563,"score":1,"winner":false},
+        {"competitor_id":50215412,"score":4,"winner":true}
+      ],
+      "round": 1,
+      "state": "closed",
+      "competition_id": 202
+    }
+  }
 
+]
+```
 ## Competidor
 ```json
 [
@@ -143,25 +180,4 @@ singleElimination = {
     }
   }
 ]
-```
-
-## Partida
-```json
-[
-  {
-    "match":{
-      "id": 23457812,
-      "location": null,
-      "competitors":[
-        {"competitor_id":12478563,"score":1,"winner":false},
-        {"competitor_id":50215412,"score":4,"winner":true}
-      ],
-      "round": 1,
-      "state": "closed",
-      "competition_id": 202,
-    }
-  }
-
-]
-
 ```
