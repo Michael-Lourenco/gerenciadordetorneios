@@ -1,0 +1,11 @@
+# Regra de negócios dos Competidores
+
+Regras:
+ TODO Criar um objeto Competidor com nomeCompetidor e idCompetidor
+ TODO O nomeCompetidor deve ser passado como referência
+ TODO O idCompetidor deve ser unico e gerado automaticamente, baseado nos outros idsDeCompetidores já cadastrados
+
+
+
+
+

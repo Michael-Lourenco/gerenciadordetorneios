@@ -107,6 +107,7 @@ Este vencedor enfrenta o VENCEDOR de outra partida, enquanto o PERDEDOR é autom
 ```json
 [
   {
+    "numberCompetitors":8,
     "matchups":[
       "match":["Equipe 1", "Equipe 2"],
       "match":["Equipe 3", "Equipe 4"]

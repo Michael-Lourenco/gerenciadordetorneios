@@ -1,0 +1,25 @@
+{
+  "name": "gerenciadordecompeticoes",
+  "version": "1.0.0",
+  "description": "A ideia sobre este App é:\r \"Monte e gerencie sua competição de forma prática e rápida\"",
+  "main": "index.js",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "jest": "^24.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Michael-Lourenco/gerenciadordecompeticoes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Michael-Lourenco/gerenciadordecompeticoes/issues"
+  },
+  "homepage": "https://github.com/Michael-Lourenco/gerenciadordecompeticoes#readme"
+}
