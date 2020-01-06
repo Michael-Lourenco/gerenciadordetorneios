@@ -105,34 +105,30 @@ Este vencedor enfrenta o VENCEDOR de outra partida, enquanto o PERDEDOR é autom
 ```
 ## Tabela de Confrontos
 ```json
-[
-  {
-    "numberCompetitors":8,
-    "matchups":[
-      "match":["Equipe 1", "Equipe 2"],
-      "match":["Equipe 3", "Equipe 4"]
-  ]
-  }
-]
+[{
+	"numberCompetitors": 8,
+	"matchups": [
+		["Equipe 1", "Equipe 2"],
+		["Equipe 3", "Equipe 4"],
+	  ["Equipe 5", "Equipe 6"],
+	  ["Equipe 7", "Equipe 8"]
+	]
+}]
 ```
 ## Resultados
 ```json 
-[
-  {
-  "results": [
-    "rounds":[
-        "round":[
-          "match-result":[1, 2],
-          "match-result":[3, 4]
-        ],
-        "round":[                  
-        "match-result" :[5, 6],
-        "match-result" :[7, 8]
-        ]
-      ]
-    ]
-  }
-]
+[{
+	"matchups-results": [
+		[
+			[1, 2],
+			[3, 4]
+		],
+		[
+			[5, 6],
+			[7, 8]
+		]
+	]
+}]
 ```
 ## Partida
 ```json
