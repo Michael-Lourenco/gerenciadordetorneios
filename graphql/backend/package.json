@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --logHeapUsage --coverage"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3",
+    "mongoose": "^5.8.5"
+  },
+  "devDependencies": {
+    "jest-cli": "^24.9.0"
+  },
+  "jest":{
+    "testEnvironment":"node",
+    "coverageReporters":["lcov","text","text-summary"],
+    "coverageDirectory":"./result"
+  }
+}

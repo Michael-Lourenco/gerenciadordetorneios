@@ -1,0 +1,7 @@
+function filter(contatos, termo){
+    return contatos.find(function(item){
+        return item.nome ===termo
+    })
+}
+
+module.exports = filter
